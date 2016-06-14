@@ -10,7 +10,7 @@
 </head>
 <body>
   <header id= "main_navigation" class="clearfix">
-    <a href="#" class="name">Serena Stater</a>
+    <%= link_to "Serena Stater", root_path, class: "name" %>
     <nav>
       <%= link_to "Articles", posts_path %>
       <a href="#">Projects</a>
@@ -18,7 +18,16 @@
     </nav>
   </header>
 
-<%= yield %>
+  <%= yield %>
+
+  <footer id="main_footer">
+    <p class="copyright">&copy;2016 Serena Stater</p>
+    <nav>
+      <a href="https://twitter.com/serena_stater" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/serenastater" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/serenastater" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </nav>
+  </footer>
 
 </body>
 </html>
