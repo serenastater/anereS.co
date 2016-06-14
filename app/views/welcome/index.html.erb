@@ -1,0 +1,36 @@
+  <div class="wrapper wrapper_padding clearfix">
+    <div class="col-1 about homepage_content">
+      <h2>About</h2>
+      <hr>
+      <p>I'm a junior full stack developer living in Palm Beach, Florida.</p>
+      <p>When I'm not coding, I'm at the beach with my dog or searching for
+        the best tacos in south Florida</p>
+    </div>
+    <div class="col-2 homepage_content">
+      <h2>Things I've Written</h2>
+      <hr>
+      <% @posts.each do |post| %>
+        <h3><a href="#"><%= link_to post.title, post %></a></h3>
+        <p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
+      <% end %>
+    </div>
+    <div class="col-3 homepage_content">
+      <h2>Things I've Built</h2>
+      <hr>
+      <h3><a href="#">ONE World</a></h3>
+        <p class="date">Thursday, June 2nd</p>
+      <h3><a href="#">Recursive Functions</a></h3>
+        <p class= "date"> Thursday, June 9th</p>
+      <h3><a href="#">This Website!</a></h3>
+        <p class="date">Wednesday, June 15th</p>
+    </div>
+  </div>
+
+  <footer id="main_footer">
+    <p class="copyright">&copy;2016 Serena Stater</p>
+    <nav>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </nav>
+  </footer>
