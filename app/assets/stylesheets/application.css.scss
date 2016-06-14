@@ -3,15 +3,15 @@
 $dark: #424652;
 $white: #FFFFFF;
 $light: #9a9da4;
-$highlight: #8bc6db;
-$border: #E9E9E9;
+$highlight: #4db6ac;
+$border: #b2dfdb;
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -25,8 +25,8 @@ body {
   margin: 0 auto;
 }
 
-.wrapper-padding {
-  padding: 4rem 0;
+.wrapper_padding {
+  padding: 3rem 0;
 }
 
 .clearfix:before,
@@ -119,15 +119,10 @@ hr {
 }
 
 #main_footer {
-  padding: 2.5em 5%;
+  padding: 2.5em 4%;
   border-top: 1px solid $border;
-  .copyright {
-    float: left;
-    font-size: .9em;
-    margin: 0;
-  }
   nav {
-    float: right;
+    float: left;
     i {
       color: $dark;
       margin-left: 1em;
