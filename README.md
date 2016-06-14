@@ -37,14 +37,14 @@
 
 ## Model Data
 
-**Post**  
- title:string
- content:text
-**Project**
- title:string
- description:text
- link:string
-**User**
+**Post**    
+ title:string  
+ content:text  
+**Project**  
+ title:string  
+ description:text  
+ link:string  
+**User**  
 
 ## Pages in application
 
