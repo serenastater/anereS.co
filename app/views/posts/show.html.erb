@@ -2,11 +2,8 @@
   <header>
     <p class="date"><%= @post.created_at.strftime('%A, %B %d') %></p>
     <h1> <%= @post.title %></h1>
+    <hr>
   </header>
-
-  <hr>
-
-  <h2> Bushwick Waistcoat </h2>
 
   <div id="content">
     <%= markdown @post.content %>
