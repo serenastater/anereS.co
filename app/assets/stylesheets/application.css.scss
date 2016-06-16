@@ -95,7 +95,7 @@ hr {
 }
 
 #main_navigation {
-  padding: 2.5em 3%;
+  padding: 2.5em 5%;
   border-bottom: 1px solid $border;
   .name {
     font-family: 'Architects Daughter', sans-serif;
@@ -143,6 +143,7 @@ hr {
       color: $dark;
       margin-left: 1em;
       padding-top: .2em;
+      margin-bottom: 1.8em;
       &:hover {
         color: $highlight;
       }
