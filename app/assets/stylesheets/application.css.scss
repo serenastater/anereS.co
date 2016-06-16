@@ -3,8 +3,8 @@
 $dark: #424652;
 $white: #FFFFFF;
 $light: #9a9da4;
-$highlight: #4db6ac;
-$border: #b2dfdb;
+$highlight: #9575cd;
+$border: #d1c4e9;
 
 * {
   box-sizing: border-box;
@@ -95,18 +95,21 @@ hr {
 }
 
 #main_navigation {
-  padding: 2.5em 5%;
+  padding: 2.5em 3%;
   border-bottom: 1px solid $border;
   .name {
+    font-family: 'Architects Daughter', sans-serif;
     font-weight: 700;
-    font-size: .8em;
+    font-size: 1.8em;
     letter-spacing: 4px;
     text-transform: uppercase;
-    border: 2px solid $border;
     padding: 1rem;
     text-decoration: none;
     color: $dark;
     float: left;
+    &:hover {
+      color: $highlight;
+    }
   }
   nav {
     float: right;
@@ -116,6 +119,9 @@ hr {
       text-decoration: none;
       margin: 0 1rem;
       font-size: 1rem;
+      &:hover {
+        color: $highlight;
+      }
     }
   }
 }

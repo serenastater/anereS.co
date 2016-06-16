@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Serena Stater - Junior Full Stack Web Developer</title>
+  <title>Serena Stater</title>
   <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -12,7 +13,7 @@
   <header id= "main_navigation" class="clearfix">
     <%= link_to "Serena Stater", root_path, class: "name" %>
     <nav>
-      <%= link_to "Articles", posts_path %>
+      <%= link_to "Ramblings", posts_path %>
       <%= link_to "Projects", projects_path %>
       <%= link_to "Contact", new_contact_path %>
       <% if user_signed_in? %>
