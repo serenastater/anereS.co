@@ -17,7 +17,6 @@
      - create / edit / destroy
      - markdown
      - syntax highlighting
-     - comments (Disqus)
     - projects
       - create / edit / destroy
     - contact
